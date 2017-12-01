@@ -1,0 +1,9 @@
+{
+  "name": "convis",
+  "version": "1.0.0",
+  "description": "接続を直感的に行い、接続のイベントを提供するためのライブラリです。",
+  "main": "index.js",
+  "author": "Taisuke Miyazaki",
+  "license": "MIT",
+  "private": false
+}
