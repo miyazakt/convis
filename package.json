@@ -1,9 +1,17 @@
 {
   "name": "convis",
   "version": "1.0.0",
+  "scripts": {
+      "run": "babel-node index.js",
+      "build:js": "babel src --out-dir dist"
+  },
   "description": "接続を直感的に行い、接続のイベントを提供するためのライブラリです。",
   "main": "index.js",
   "author": "Taisuke Miyazaki",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
