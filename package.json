@@ -27,6 +27,9 @@
       "files": [
           "test/**/*.js"
       ],
+      "source": [
+          "src/**/*.js"
+      ],
       "require": [
           "babel-register"
       ],
